@@ -1,6 +1,10 @@
 # react_course
 Starting from react to understand better snapshots and enzyme
 
+Course:
+
+https://www.youtube.com/watch?v=DLX62G4lc44&t=879s
+
 Setup:
 
 Install create-react-app
@@ -13,3 +17,4 @@ Create react app
 Start React app
 
 Open browser at localhost:3000
+
