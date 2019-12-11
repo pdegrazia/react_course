@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import MyInfo from './components/MyInfo'
+import App from './App'
 
 ReactDOM.render(
-  <MyInfo/>, 
+  <App/>, 
   document.getElementById('root')
 );
 
