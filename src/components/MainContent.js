@@ -6,8 +6,7 @@ function MainContent() {
   return(
     <div>
       <div id="mainContent">This is the main content</div>
-      <p>{firstName}</p>
-      <p>{surname}</p>
+      <p>{`${firstName} ${surname}`}</p>
     </div>
   );
 }
