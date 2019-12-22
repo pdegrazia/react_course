@@ -1,14 +1,15 @@
 import React from 'react'
 
 import KittenListItem from './components/KittenListItem'
+import kittiesData from './components/kittiesData'
 
 function KittensList() {
+
+  const kittiesList = kittiesData.map(kitty => <KittenListItem name={kitty.name} imgUrl={kitty.imgUrl}/>);
+
   return(
     <ul>
-      <li><KittenListItem name="first cat" imgUrl="https://placekitten.com/200/300"/></li>
-      <li><KittenListItem name="second cat" imgUrl="https://placekitten.com/400/300"/></li>
-      <li><KittenListItem name="third cat" imgUrl="https://placekitten.com/200/200"/></li>
-      <li><KittenListItem name="fourth cat" imgUrl="https://placekitten.com/300/300"/></li>
+      {kittiesList}
     </ul>
   );
 }
